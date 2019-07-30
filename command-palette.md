@@ -11,12 +11,14 @@ The Command Palette provides access to many commands and enables you to create s
 
 The most important key binding to know is `⇧⌘P`, which brings focus to the Command Palette.
 
+<a name="colour"></a>
 ### Colour
 - `/green`
 - `/red`
 - `/yellow`
 - `/purple`
 
+<a name="type"></a>
 ### Type
 - `/note`
 - `/cue`
