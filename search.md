@@ -11,14 +11,13 @@
 	- [Variables](#variables)
     - [Operators](#operators)
 
-
-Search provides a means to filter the central display to a selection of stamps, that fits your criteria, to better navigate the timeline.
-To create a search one or more different types of searches can be combined to predicate against, providing a very simple and expressive method of defining search criteria.
-For example, to filter the timeline to display all Cue Stamps labeled and set to be a snap blackout:
+Search provides a means to filter the central display to a selection of stamps, fitting your criteria, to better refine the timeline to your current task.
+To create a search, one or more different types of searches can be combined to predicate against, providing a very simple and expressive method of defining search criteria.
+For example, to filter the timeline to display all cue stamps labeled and set to be a snap blackout:
 
 `/cue blackout /cue/upTime==0 /cue/downTime==0`
 
-To select the search field, use the keyboard shortcut ⌘ | Ctrl F and begin typing.
+To quickly select the search field, use the key binding `Shift` `⌘` `F` and begin typing.
 
 <a name="basic-searching"></a>
 ## Basic Searching
@@ -32,6 +31,15 @@ The most basic Stamp search accepts text and compares whether the following attr
 - `Cue Stamp - Label`
 - `Eos Stamp - Label`
 - `Disguise Stamp - Section Name`
+
+For example, the text search "sam" would show all four of these:
+
+- `SAM` PLEASE FIX THIS BUG!!!
+- Is this stamp the `sam`e as the last?
+- Draw focus to `Sam`antha Down Stage Left.
+- This should now be di`sam`biguous.
+
+Text searches are case and diacritic insensitive.
 <a name="session"></a>
 ### Session
 
