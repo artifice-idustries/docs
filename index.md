@@ -15,7 +15,7 @@
     - [Assignment](/docs/{{version}}/assignment)
     - [Search](/docs/{{version}}/search)
     - [Find](/docs/{{version}}/find)
-    - [Key Bindings](/docs/{{version}}/key-bindings)
+    - [Keyboard Shortcuts](/docs/{{version}}/keyboard-shortcuts)
 - ## Connections
     - [OSC](/docs/{{version}}/osc)
     - [MIDI](/docs/{{version}}/midi)
