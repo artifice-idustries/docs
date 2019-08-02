@@ -34,9 +34,9 @@ The most basic Stamp search accepts text and compares whether the following attr
 
 For example, the text search "sam" would show all four of these:
 
-- `SAM` PLEASE FIX THIS BUG!!!
+- `SAM` - PLEASE FIX THIS BUG!!!
 - Is this stamp the `sam`e as the last?
-- Draw focus to `Sam`antha Down Stage Left.
+- Draw focus to `Sam`antha down stage left.
 - This should now be di`sam`biguous.
 
 Text searches are case and diacritic insensitive.
