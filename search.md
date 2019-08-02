@@ -26,17 +26,50 @@ Text searching predicates on the following attributes of stamps:
 
 <a name="type"></a>
 ### Type
+- `/session`
+- `/flag`
+- `/timecode`
+- `/note`
+- `/cue`
+- `/osc`
+- `/midi`
+- `/serial`
+- `/eos`
+- `/qlab`
+- `/disguise`
+- `/mitti`
+- `/hog`
 
+- `/edit`
+    flag, note and cue stamps
+- `/connection`
+    timecode, osc, midi, serial, eos, qlab, disguise, mitti and hog stamps
 <a name="colour"></a>
 ### Colour
-
+- `/green`
+- `/red`
+- `/yellow`
+- `/purple`
 <a name="assinnment"></a>
 ### Assignment
-
+ `@person`
 <a name="wildcard-comparisons"></a>
 ## Wildcard Comparisons
 <a name="variables"></a>
 ### Variables
-
+- `/eos/list`
+- `/eos/number`
+- `/qlab/number`
+- `/hog/list`
+- `/hog/number`
+- `/cue/number`
+- `/cue/upTime`
+- `/cue/downTime`
 <a name="operators"></a>
 ### Operators
+- `==` - Equals
+- `!=` - Not equals
+- `<=` - Less than or equals
+- `>=` - Greaten than or equals
+- `<` - Less than
+- `>` - Greater than
