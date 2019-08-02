@@ -2,11 +2,14 @@
 
 We know keyboard shortcuts help get things done faster, and here’s a handy list of the shortcuts currently supported by Stamp.
 
-Search - `Option` `⌘` `J`
+<a name="navigation"></a>
+## Navigation
+- Command Palette - `Shift` `⌘` `P`
+- Search - `Option` `⌘` `J`
+- Find  - `⌘` `F`
 
 <a name="find"></a>
 ## Find
-- Find  - `⌘` `F`
 - Find Playback - `Shift` `⌘` `F`
 - Find Targeted Stamp - `Option` `⌘` `F`
 - Find Selected Stamp - `Shift` `Option` `F`
@@ -19,7 +22,6 @@ Search - `Option` `⌘` `J`
 
 <a name="command-palette"></a>
 ## Command Palette
-- Command Palette - `Shift` `⌘` `P`
 - Reset Time - `Ctrl` `R` 
 
 <a name="edit"></a>
