@@ -3,18 +3,29 @@
 - [Basic Searching](#basic-searching)
     - [Text](#text)
     - [Session](#session)
+- [Key Words](#key-words)
     - [Type](#type)
-    - [Colour](#colour)
+    - [Colours](#colour)
     - [Assignment](#assignment)
 - [Wildcard Comparisons](#wildcard-comparisons)
 	- [Variables](#variables)
     - [Operators](#operators)
 
+
+Search provides a means to filter the central display to a selection of stamps, that fits your criteria, to better navigate the timeline.
+To create a search one or more different types of searches can be combined to predicate against, providing a very simple and expressive method of defining search criteria.
+For example, to filter the timeline to display all Cue Stamps labeled and set to be a snap blackout:
+
+`/cue blackout /cue/upTime==0 /cue/downTime==0`
+
+To select the search field, use the keyboard shortcut ⌘ | Ctrl F and begin typing.
+
 <a name="basic-searching"></a>
 ## Basic Searching
+
 <a name="text"></a>
 ### Text
-Text searching predicates on the following attributes of stamps:
+The most basic Stamp search accepts text and compares whether the following attributes of a stamp contain it:
 - `Session - Title`
 - `Flag Stamp - Title`
 - `Note Stamp - Label`
@@ -53,6 +64,9 @@ Text searching predicates on the following attributes of stamps:
 <a name="assinnment"></a>
 ### Assignment
  `@person`
+ `@everyone`
+ `@team`
+ `@categories`
 <a name="wildcard-comparisons"></a>
 ## Wildcard Comparisons
 <a name="variables"></a>
