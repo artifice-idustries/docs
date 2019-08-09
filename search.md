@@ -26,23 +26,23 @@ To quickly select the search field, use the keyboard shortcut `Option` `⌘` `J`
 ### Text
 The most basic Stamp search accepts text and compares the following attributes of a stamp against it:
 - Session:
-	- **title** `contains` **text**
+	- **title** *contains* **text**
 - Flag Stamp:
-    - **title** `contains` **text**
+	- **title** *contains* **text**
 - Note Stamp:
-    - **label** `contains` **text**
+	- **label** *contains* **text**
 - Cue Stamp:
-    - **label** `contains` **text**
-    - **number** `equals` **text**
+	- **label** *contains* **text**
+	- **number** *equals* **text**
 - Eos Stamp:
-    - **label** `contains` **text**
-    - **cue number** `equals` **text**
+	- **label** *contains* **text**
+	- **cue number** *equals* **text**
 - Hog4 Stamp:
-    - **cue number** `equals` **text**
+	- **cue number** *equals* **text**
 - QLab Stamp:
-    - **cue number** `equals` **text**
+	- **cue number** *equals* **text**
 - Disguise Stamp: 
-    - **section name** `contains` **text**
+	- **section name** *contains* **text**
 
 Text searches are case and diacritic insensitive.
 
