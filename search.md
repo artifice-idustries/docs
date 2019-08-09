@@ -67,7 +67,7 @@ Text searches are case and diacritic insensitive.
 - `/mitti`
 - `/hog`
 
-### Special Type Keywords
+#### Special Type Keywords
 - `/edit` - Filter to stamps that are editable e.g. flag, note or cue stamps.
 
     This command is the equivilent of `/flag /note /cue`
@@ -88,7 +88,7 @@ Text searches are case and diacritic insensitive.
 - `@person`
 - `@everyone`
 
-### Special Assignment Keywords
+#### Special Assignment Keywords
 - `@team` - Filter to stamps that are assinged to a person.
 - `@categories` - Filter to stamps that are assinged to a category.
 
