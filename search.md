@@ -3,7 +3,7 @@
 - [Basic Searching](#basic-searching)
     - [Text](#text)
     - [Session](#session)
-- [Key Words](#key-words)
+- [Keywords](#keywords)
     - [Type](#type)
     - [Colours](#colour)
     - [Assignment](#assignment)
@@ -49,6 +49,8 @@ Text searches are case and diacritic insensitive.
 <a name="session"></a>
 ### Session
 
+<a name="keywords"></a>
+## Keywords
 <a name="type"></a>
 ### Type
 - `/session`
@@ -65,22 +67,29 @@ Text searches are case and diacritic insensitive.
 - `/mitti`
 - `/hog`
 
-- `/edit`
-    flag, note and cue stamps
-- `/connection`
-    timecode, osc, midi, serial, eos, qlab, disguise, mitti and hog stamps
+### Special Type Keywords
+- `/edit` - Filter to stamps that are editable e.g. flag, note or cue stamps.
+    This command is the equivilent of `/flag /note /cue`
+    
+- `/connection` - Filter to stamps that are made from a connection.
+    This command is the equivilent of `/timecode /osc /midi /serial /eos /qlab /disguise /mitti /hog`
+
 <a name="colour"></a>
 ### Colour
 - `/green`
 - `/red`
 - `/yellow`
 - `/purple`
+
 <a name="assinnment"></a>
 ### Assignment
  `@person`
  `@everyone`
- `@team`
- `@categories`
+
+ ### Special Assignment Keywords
+ `@team` - Filter to stamps that are assinged to a person.
+ `@categories` - Filter to stamps that are assinged to a category.
+
 <a name="wildcard-comparisons"></a>
 ## Wildcard Comparisons
 <a name="variables"></a>
