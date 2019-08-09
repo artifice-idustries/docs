@@ -17,7 +17,7 @@ For example, to filter the timeline to display all cue stamps labeled and set to
 
 `/cue blackout /cue/upTime==0 /cue/downTime==0`
 
-To quickly select the search field, use the keyboard shortcut `Shift` `⌘` `F` and begin typing.
+To quickly select the search field, use the keyboard shortcut `Option` `⌘` `J` and begin typing.
 
 <a name="basic-searching"></a>
 ## Basic Searching
