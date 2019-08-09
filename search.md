@@ -70,11 +70,11 @@ Text searches are case and diacritic insensitive.
 #### Special Type Keywords
 - `/edit` - Filter to stamps that are editable e.g. flag, note or cue stamps.
 
-    This command is the equivilent of `/flag /note /cue`
+    This search is the equivilent of `/flag /note /cue`
     
 - `/connection` - Filter to stamps that are made from a connection.
 
-    This command is the equivilent of `/timecode /osc /midi /serial /eos /qlab /disguise /mitti /hog`
+    This search is the equivilent of `/timecode /osc /midi /serial /eos /qlab /disguise /mitti /hog`
 
 <a name="colour"></a>
 ### Colour
