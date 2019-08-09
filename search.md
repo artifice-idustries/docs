@@ -24,22 +24,28 @@ To quickly select the search field, use the key binding `Shift` `⌘` `F` and be
 
 <a name="text"></a>
 ### Text
-The most basic Stamp search accepts text and compares whether the following attributes of a stamp contain it:
-- `Session - Title`
-- `Flag Stamp - Title`
-- `Note Stamp - Label`
-- `Cue Stamp - Label`
-- `Eos Stamp - Label`
-- `Disguise Stamp - Section Name`
-
-For example, the text search "sam" would show all four of these:
-
-- `SAM` - PLEASE FIX THIS BUG!!!
-- Is this stamp the `sam`e as the last?
-- Draw focus to `Sam`antha down stage left.
-- This should now be di`sam`biguous.
+The most basic Stamp search accepts text and compares the following attributes of a stamp against it:
+- Session:
+    - `title` `contains` `text`
+- Flag Stamp:
+    - `title` `contains` `text`
+- Note Stamp:
+    - `label` `contains` `text`
+- `Cue Stamp:
+    - `label` `contains` `text`
+    - `number` `equals` `text`
+- Eos Stamp:
+    - `label` `contains` `text`
+    - `cue number` `equals` `text`
+- Hog4 Stamp:
+    - `cue number` `equals` `text`
+- QLab Stamp:
+    - `cue number` `equals` `text`
+- Disguise Stamp: 
+    - `section name` `contains` `text`
 
 Text searches are case and diacritic insensitive.
+
 <a name="session"></a>
 ### Session
 
