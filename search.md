@@ -31,7 +31,7 @@ The most basic Stamp search accepts text and compares the following attributes o
     - `title` `contains` `text`
 - Note Stamp:
     - `label` `contains` `text`
-- `Cue Stamp:
+- Cue Stamp:
     - `label` `contains` `text`
     - `number` `equals` `text`
 - Eos Stamp:
