@@ -69,9 +69,11 @@ Text searches are case and diacritic insensitive.
 
 ### Special Type Keywords
 - `/edit` - Filter to stamps that are editable e.g. flag, note or cue stamps.
+
     This command is the equivilent of `/flag /note /cue`
     
 - `/connection` - Filter to stamps that are made from a connection.
+
     This command is the equivilent of `/timecode /osc /midi /serial /eos /qlab /disguise /mitti /hog`
 
 <a name="colour"></a>
@@ -83,12 +85,12 @@ Text searches are case and diacritic insensitive.
 
 <a name="assinnment"></a>
 ### Assignment
- `@person`
- `@everyone`
+- `@person`
+- `@everyone`
 
- ### Special Assignment Keywords
- `@team` - Filter to stamps that are assinged to a person.
- `@categories` - Filter to stamps that are assinged to a category.
+### Special Assignment Keywords
+- `@team` - Filter to stamps that are assinged to a person.
+- `@categories` - Filter to stamps that are assinged to a category.
 
 <a name="wildcard-comparisons"></a>
 ## Wildcard Comparisons
