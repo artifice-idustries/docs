@@ -62,7 +62,7 @@ We know keyboard shortcuts help get things done faster, and here’s a handy lis
 - Show Connections Inspector - `Option` `⌘` `1`
 - Show Team Inspector - `Option` `⌘` `2`
 - Show Categories Inspector - `Option` `⌘` `3`
-- Show/Hide Utilities - `Option` `⌘` `0`
+- Show/Hide Inspectors - `Option` `⌘` `0`
 
 
 
