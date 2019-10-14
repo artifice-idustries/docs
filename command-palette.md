@@ -7,7 +7,7 @@
 <a name="commands"></a>
 ## Commands
 
-The Command Palette provides access to many commands and enables you to create stamps of varying types and provide them with different attribute values from a single command.
+The Command Palette provides access to many commands and enables you to create stamps of varying types providing them with different attribute values from a single command.
 To quickly bring focus to the Command Palette, use the keyboard shortcut `Shift` `⌘` `P`.
 
 <a name="colour"></a>

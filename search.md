@@ -5,14 +5,14 @@
     - [Session](#session)
 - [Keywords](#keywords)
     - [Type](#type)
-    - [Colours](#colour)
-    - [Assignment](#assignment)
-- [Wildcard Comparisons](#wildcard-comparisons)
+    - [Colour](#colour)
+- [Assignment](#assignment)
+- [Wildcard Comparison](#wildcard-comparison)
 	- [Variables](#variables)
     - [Operators](#operators)
 
-Search provides a means to filter the central display to a selection of stamps, fitting your criteria, to better refine the timeline to your current task.
-To create a search, one or more different types of searches can be combined to predicate against, providing a very simple and expressive method of defining search criteria.
+Search provides a means to filter the central display to a selection of stamps to better refine the timeline to your current task.
+To create a search one or more different types of searches can be combined to predicate against, providing a very simple and expressive method of defining search criteria.
 For example, to filter the timeline to display all cue stamps labeled and set to be a snap blackout:
 
 `/cue blackout /cue/upTime==0 /cue/downTime==0`
@@ -25,24 +25,16 @@ To quickly select the search field, use the keyboard shortcut `Option` `⌘` `J`
 <a name="text"></a>
 ### Text
 The most basic Stamp search accepts text and compares the following attributes of a stamp against it:
-- Session:
-	- **title** *contains* **text**
-- Flag Stamp:
-	- **title** *contains* **text**
-- Note Stamp:
-	- **label** *contains* **text**
-- Cue Stamp:
-	- **label** *contains* **text**
-	- **number** *equals* **text**
-- Eos Stamp:
-	- **label** *contains* **text**
-	- **cue number** *equals* **text**
-- Hog4 Stamp:
-	- **cue number** *equals* **text**
-- QLab Stamp:
-	- **cue number** *equals* **text**
-- Disguise Stamp: 
-	- **section name** *contains* **text**
+- Session **title** *containing* **text**
+- Flag Stamp **title** *containing* **text**
+- Note Stamp **label** *containing* **text**
+- Cue Stamp **label** *containing* **text**
+- Cue Stamp **number** * equals to* **text**
+- Eos Stamp **label** *containing* **text**
+- Eos Stamp **cue number** * equals to* **text**
+- Hog4 Stamp **cue number** * equals to* **text**
+- QLab Stamp **cue number** * equals to* **text**
+- Disguise Stamp **section name** *containing* **text**
 
 Text searches are case and diacritic insensitive.
 
@@ -51,8 +43,11 @@ Text searches are case and diacritic insensitive.
 
 <a name="keywords"></a>
 ## Keywords
+Specific words prefixed with `/` can be used to allow for quick generalised searching.
 <a name="type"></a>
 ### Type
+Each Stamp created has a `type` set either by the connection that made it, the command palette or from a keyboard shortcut.
+To filter the timeline to show all the stamps of a certain type, use the following keywords:
 - `/session`
 - `/flag`
 - `/timecode`
@@ -77,6 +72,7 @@ Text searches are case and diacritic insensitive.
     This search is the equivilent of `/timecode /osc /midi /serial /eos /qlab /disguise /mitti /hog`
 
 <a name="colour"></a>
+Each Stamp has a colour property. To filter the timeline to show all the stamps with a specific colour, use the following keywords:
 ### Colour
 - `/green`
 - `/red`
@@ -84,16 +80,27 @@ Text searches are case and diacritic insensitive.
 - `/purple`
 
 <a name="assinnment"></a>
-### Assignment
-- `@person`
-- `@everyone`
+## Assignment
+Stamps can be asssigned to team members or categories. 
+Preface the person or category name with the `@` symbol to filter the timeline to all stamps assigned to a person a category with a matching name.
+- `@person` e.g. @Sam, @Smallman or @artificers
 
-#### Special Assignment Keywords
-- `@team` - Filter to stamps that are assinged to a person.
-- `@categories` - Filter to stamps that are assinged to a category.
+	This search will predicate against the first, last or company name associated with the team member.
 
-<a name="wildcard-comparisons"></a>
-## Wildcard Comparisons
+- `@category` e.g. @Developer
+
+### Special Assignment Keywords
+- `@team` - Filter to Stamps that are assinged to a person.
+- `@categories` - Filter to Stamps that are assinged to a category.
+- `@everyone` - Filter to Stamps that are assigned to either a person or a category.
+
+<a name="wildcard-comparison"></a>
+## Wildcard Comparison
+To allow for expressive and scalable searching, wildcards can be utilised in conjuction with relational operators.
+For example, to filter the timeline to display all cue Stamps with a number greater than or equal to 10:
+
+`/cue/number>=10`
+
 <a name="variables"></a>
 ### Variables
 - `/eos/list`
@@ -107,8 +114,8 @@ Text searches are case and diacritic insensitive.
 <a name="operators"></a>
 ### Operators
 - `==` - Equals
-- `!=` - Not equals
-- `<=` - Less than or equals
-- `>=` - Greaten than or equals
+- `!=` - Not  equals to
+- `<=` - Less than or  equals to
+- `>=` - Greaten than or  equals to
 - `<` - Less than
 - `>` - Greater than

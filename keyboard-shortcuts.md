@@ -1,6 +1,6 @@
 # Keyboard Shortcuts
 
-We know keyboard shortcuts help get things done faster, and here’s a handy list of the shortcuts currently supported by Stamp.
+We know keyboard shortcuts help get things done faster. Here’s a handy list of the shortcuts currently supported by Stamp.
 
 <a name="navigation"></a>
 ## Navigation
