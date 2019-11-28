@@ -3,6 +3,7 @@
     - [Update Guide](/docs/{{version}}/update)
 - ## Getting Started
     - [Introduction](/docs/{{version}}/introduction)
+    - [Workflow](/docs/{{version}}/workflow)
     - [Installation](/docs/{{version}}/installation)
 - ## Core Concepts
     - [Timelines](/docs/{{version}}/timelines)
