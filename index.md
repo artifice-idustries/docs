@@ -4,6 +4,7 @@
 - ## Getting Started
     - [Introduction](/docs/{{version}}/introduction)
     - [Workflow](/docs/{{version}}/workflow)
+    - [Overview](/docs/{{version}}/overview)
     - [Installation](/docs/{{version}}/installation)
 - ## Core Concepts
     - [Timelines](/docs/{{version}}/timelines)
