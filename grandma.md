@@ -1,3 +1,5 @@
+# GrandMA
+
 Create a folder on the root of a USB named "importexport"
 Place the explorted .xml file within that folder.
 Plug in your USB
