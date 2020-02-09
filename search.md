@@ -44,7 +44,7 @@ Sessions are used to organise the timeline into periods of time.
 To filter the timeline to show all stamps within a session; a `Session Search` can be built by using the desired session's title enclosed by `\``.
 For example:
 
-`\`Start of Day 1\``
+```Start of Day 1```
 
 <a name="keywords"></a>
 ## Keywords
