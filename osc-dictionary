@@ -1,1 +1,4 @@
+#Stamp OSC Dictionary
+
+A API (application program interface) for OSC which allows you to control Stamp from any device or software which can send OSC messages.
 
