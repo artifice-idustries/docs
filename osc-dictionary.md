@@ -1,4 +1,4 @@
-#Stamp OSC Dictionary
+# Stamp OSC Dictionary
 
 An API (application program interface) for OSC enabling you to control Stamp from any device or software that can send OSC packets.
 
