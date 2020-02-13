@@ -29,7 +29,7 @@ if `string` is given, create a note stamp and set the note to the specified stri
 
 ### Media Methods
 
-**/stamp/media/record** {bool}
+**/stamp/media/record {bool}**
 
 If `bool` is true or no argument is provided, the message is treated as if there was a boolean value `true`. In either case start recording media. 
 If `bool` is false, stop media recording.
