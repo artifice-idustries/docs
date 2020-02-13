@@ -4,11 +4,7 @@ An API (application program interface) for OSC enabling you to control Stamp fro
 
 ## Transport Layer
 
-The Stamp OSC API can be used by either UDP and TCP transport layers. Stamp listens for incoming OSC packets on port 24601.
-
-When talking to Stamp via UDP, each OSC packet corresponds to one UDP datagram. Replies to OSC via UDP are sent to port 24602.
-
-When talking to Stamp via TCP, packets are framed using the double END SLIP protocol [RFC 1055](https://tools.ietf.org/rfc/rfc1055.txt) as required by the [OSC 1.1 specification](http://opensoundcontrol.org/introduction-osc). Replies to OSC via TCP are sent to port 24601.
+The Stamp OSC API can be used by either UDP and TCP transport layers. Stamp listens for incoming OSC packets on port 24601. When talking to Stamp via UDP, each OSC packet corresponds to one UDP datagram. Replies to OSC via UDP are sent to port 24602. When talking to Stamp via TCP, packets are framed using the double END SLIP protocol [RFC 1055](https://tools.ietf.org/rfc/rfc1055.txt) as required by the [OSC 1.1 specification](http://opensoundcontrol.org/introduction-osc). Replies to OSC via TCP are sent to port 24601.
 
 ## Reply Format
 
@@ -18,8 +14,7 @@ All replies from Stamp take the form:
 
 ## OSC Methods
 
-Methods will be sent to the current timeline which is the front-most, active document. 
-So, if `romeo and juliet.stamps` timeline is the front-most, active document, and you send Stamp the OSC command /stamp/media/record, then `romeo and juliet.stamps` will start recording.
+Methods will be sent to the current, front-most, active timeline document. So, if `romeo and juliet.stamps` timeline is the front-most, active document, and you send Stamp the OSC command /stamp/media/record, then `romeo and juliet.stamps` will start recording.
 
 ### Timeline Methods
 
