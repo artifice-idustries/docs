@@ -35,6 +35,7 @@ If `bool` is true or no argument is provided, the message is treated as if there
 If `bool` is false, stop media recording.
 
 **/stamp/media/record {number}**
+
 `number` is interpreted as a boolean; 0 equals `false`, any other number equals `true`. If no number is given start recording media.
 
 **/stamp/media/record/start**
