@@ -34,6 +34,9 @@ if `string` is given, create a note stamp and set the note to the specified stri
 If `bool` is true or no argument is provided, the message is treated as if there was a boolean value `true`. In either case start recording media. 
 If `bool` is false, stop media recording.
 
+**/stamp/media/record {number}**
+`number` is interpreted as a boolean; 0 equals `false`, any other number equals `true`. If no number is given start recording media.
+
 **/stamp/media/record/start**
 
 Start media recording.
@@ -48,4 +51,4 @@ Read-only: return `true` if media is currently recording, otherwise `false`.
 
 **/stamp/remind**
 
-A simple heartbeat method. Returns a `string` that may help you to remember. (Who am I? 24601!).
+A simple heartbeat method. Returns a `string` that may help you to remember. "Who am I? 24601!".
