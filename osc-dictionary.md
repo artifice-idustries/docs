@@ -46,6 +46,6 @@ Stop media recording.
 
 Read-only: return `true` if media is currently recording, otherwise `false`.
 
-**/stamp/knock**
+**/stamp/remind**
 
-A simple heartbeat method. Returns the `string` “knock knock”. (Knock-knock, knock-knock).
+A simple heartbeat method. Returns a `string` that may help you to remember. (Who am I? 24601!).
