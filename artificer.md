@@ -13,7 +13,7 @@ Every command also includes a "help" screen which displays and describes the com
 
 You can place the artificer executable anywhere you wish. If you put it in a directory that is part of your `PATH`, you can access it globally.
 
-After downloading artificer and changing your path to the parent of the downloaded file you can run this from terminal to move artificer to a directory that is in your path:
+After downloading artificer and changing your path to the parent of the downloaded executable you can run this from terminal to move artificer to a directory that is in your path:
 
 `mv artificer /usr/local/bin/artificer`
 
