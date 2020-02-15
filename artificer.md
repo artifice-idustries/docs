@@ -31,7 +31,7 @@ now run `artificer` to begin interacting with a Stamp server.
 ## Workflow
 
 1. Open terminal: Command (⌘) + Space -> "Terminal" -> Return (↵).
-2. `artificer stamp` Return (↩).
+2. `artificer stamp` Return (↵).
 This will provide you with a list of stamp servers artificer can see on the network. If you already know the IP address of the stamp server you can skip this step. Otherwise, make a note of the IP address of the stamp server you wish to connect to.
 3. `artificer craft <ip address>` Return (↵).
 4. Notes will be sent to the connected stamp server after each Return (↵).
