@@ -29,6 +29,7 @@ Note: For information on changing your PATH, please read the Wikipedia article a
 now run `artificer` to begin interacting with a Stamp server.
 
 ## Workflow
+Artificer allows you to interact with a stamp server on the command line.
 
 1. Open terminal: Command (⌘) + Space -> "Terminal" -> Return (↵).
 2. `artificer stamp` Return (↵).
