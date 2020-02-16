@@ -23,6 +23,10 @@ We know keyboard shortcuts help get things done faster. Here’s a handy list of
 <a name="command-palette"></a>
 ## Command Palette
 - Reset Time - `Ctrl` `R` 
+- Set to Session - `Ctrl` `Option` `S`
+- Set to Flag - `Ctrl` `Option` `F`
+- Set to Cue - `Ctrl` `Option` `Q`
+- Set to Note - `Ctrl` `Option` `Space`
 
 <a name="edit"></a>
 ## Edit
