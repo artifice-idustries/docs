@@ -41,7 +41,7 @@ Start media recording.
 
 Stop media recording.
 
-**/stamp/media/isRecording**
+**/stamp/media/record/state**
 
 Read-only: return `true` if media is currently recording, otherwise `false`.
 
