@@ -54,9 +54,9 @@ Note: Stamp uses port 3032 for the TCP connection.
 
 2. Select the same OSC version as the one being used by the eos console. 
 
-3. Check "Connect via TCP"
+3. Check `Connect via TCP`
 
-4. Click "Save"
+4. Click `Save`
 
 ---
 <a name="eos-udp"></a>
@@ -69,22 +69,22 @@ Note: Stamp uses port 3032 for the TCP connection.
 
 2. From the Show Control Settings within the eos application OSC should be enabled for both receiving and transmitting messages.
 
-3. A transmit and receive port number should be chosen e.g. 3001 and 3002, then input into the "OSC UDP RX Port" and "OSC UDP TX Port" fields.
+3. A transmit and receive port number should be chosen e.g. 3001 and 3002, then input into the `OSC UDP RX Port` and `OSC UDP TX Port` fields.
 
-4. Input the IP address for the mac running Stamp into the "OSC UDP TX IP Address" field.
+4. Input the IP address for the mac running Stamp into the `OSC UDP TX IP Address` field.
 
 <a name="udp-stamp-settings"></a>
 ### Stamp Settings
 
 1. Input the IP address of the primary eos console acting as the "Master". 
 
-2. Uncheck "Connect via TCP"
+2. Uncheck `Connect via TCP`
 
 3. Input the receive port you set for eos as the transmit port for the connection.
 
 4. Input the transmit port you set for eos as the receive port for the connection. 
 
-4. Click "Save"
+4. Click `Save`
 
 ```note
 Note: Make sure to swap the transmit and receive port numbers between the eos console and the connection in Stamp. It is a common mistake to have the port numbers for both transmit and receive as the same.
