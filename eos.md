@@ -1,6 +1,7 @@
 # Eos Family Connection
 
 - [Introduction](#eos-introduction)
+- [Which Connection Protocol?](#tcp-or-udp)
 - [TCP](#eos-tcp)
     - [OSC Versions](#tcp-osc-versions)
     - [Eos Settings](#tcp-eos-settings)
@@ -19,6 +20,9 @@ The eos family connection logs cues fired by an eos family console creating <a h
 
 When an eos family connection receives the cue fired message from an eos family console it will create an <a href="/docs/type"><b>eos stamp</b></a> assigning the `cue list`, `cue number` and `label` values accordingly.
 
+---
+<a name="tcp-or-udp"></a>
+## Which Connection Protocol?
 Before getting started, be sure to understand which connection protocol (TCP or UDP) you aim to use.
 
 TL;DR: TCP is slower but reliable, UDP is faster but unreliable. Realistically in a small, closed and stable network typical for a live production, speed is negligible so **we would recommend using TCP** for the key points that it is both quicker and easier to set up. Feel free to read this <a href="https://blog.etcconnect.com/2018/01/exploring-the-network-the-postman/"><b>blog post</b></a> written by our founder for a more in depth look at the differences.
@@ -107,7 +111,3 @@ When leading is toggled on at the connection, cues fired from an eos console wil
 There are occasions when a recording has been made where an eos console has not been involved such as within the rehearsal room, typically by a Lighting Designer. In these occasion <a href="/docs/type"><b>cue stamps</b></a> have been made to mark points in time when a cue should sit and usually a rough cue list is created. It is then useful whilst in a technical rehearsal to look back at a rehearsal room run through using the cues that are recorded in the eos console to lead the media.
 
 To alter the type of stamp from eos to cue that the connection attempts to lead to `Lead to Cue Stamps` should be checked.
-
-
-
-
