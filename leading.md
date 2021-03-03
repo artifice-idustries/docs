@@ -17,7 +17,7 @@ Leading is the process of positioning the timeline to a specific point in time. 
 ---
 <a name="click-leading"></a>
 ## Click Leading
-When a stamp is clicked on and it sits with the range of the targeted flag stamps attached media, click leading will seek the media to the point in time the stamp sits. Click leading is designed as a toggle state to allow for situations where edits/selection can be made on a stamp without altering the current playback of a piece of media. To turn click leading on or off, use the keyboard shortcut `Ctrl` `Shift` `⌘` `L` or press the button in the toolbar.
+When a stamp is clicked on and it sits within the range of the targeted flag stamps attached media, click leading will seek the media to the point in time the stamp sits. Click leading is designed as a toggle state to allow for situations where edits/selection can be made on a stamp without altering the current playback of a piece of media. To turn click leading on or off, use the keyboard shortcut `Ctrl` `Shift` `⌘` `L` or press the button in the toolbar.
 
 ---
 <a name="connection-leading"></a>
