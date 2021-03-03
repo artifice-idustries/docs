@@ -12,7 +12,7 @@
 <a name="leading-introduction"></a>
 ## Introduction
 
-Leading is the process of positioning the timeline to a specific point in time. This functionality can either be driven by you as you click on a stamp in the timeline or by a <a href="/docs/connections"><b>connection</b></a>. When the timeline is lead to a point in time the targeted flag stamp and its attached media will seek to that moment allowing you to quickly traverse and analyse the timeline. 
+Leading is the process of positioning the timeline to a specific point in time. This functionality can either be driven by you as you click on a stamp in the timeline or by a <a href="/docs/connections"><b>connection</b></a>. When the timeline is lead to a point in time the targeted flag stamps attached media will seek to that moment allowing you to quickly traverse and analyse the timeline. 
 
 ---
 <a name="click-leading"></a>
