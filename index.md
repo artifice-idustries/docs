@@ -9,7 +9,7 @@
     - [Timelines](/docs/{{version}}/timelines)
     - [Stamps](/docs/{{version}}/stamps)
     - [Connections](/docs/{{version}}/connections)
-    <!-- - [Leading](/docs/{{version}}/leading) -->
+    - [Leading](/docs/{{version}}/leading)
 - ## The Basics
     - [Command Palette](/docs/{{version}}/command-palette)
     - [Type](/docs/{{version}}/type)
