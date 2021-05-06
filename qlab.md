@@ -15,7 +15,7 @@ When a QLab connection receives a cue method from QLab it will create a <a href=
 ```note
 Note: Currently QLab does not explicitly send updates for cues starting and requires you to create Network Cues for each cue that you would like logged by Stamp. 
 ```
-An example workaround to this problem takes advantage of QLab's OSC Queries API and assignable hotkeys and is shown by Sound Designer, Matt Padden, in this <a href="{{ secure_asset('assets/Cue+Logger.qlab4.zip') }}"><b>QLab file</b></a>.
+An example workaround to this problem takes advantage of QLab's OSC Queries API and assignable hotkeys and is shown by Sound Designer, Matt Padden, in this <a href="https://stamp.xyz/assets/Cue+Logger.qlab4.zip"><b>QLab file</b></a>.
 
 
 ---
