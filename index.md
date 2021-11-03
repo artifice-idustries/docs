@@ -1,6 +1,7 @@
 - ## Prologue
     - [Release Notes](/docs/{{version}}/releases)
     - [Update Guide](/docs/{{version}}/update)
+    - [Terms and Conditions](/docs/{{version}}/terms-and-conditions)
 - ## Getting Started
     - [Introduction](/docs/{{version}}/introduction)
     - [Workflow](/docs/{{version}}/workflow)
