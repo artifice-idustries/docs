@@ -22,7 +22,7 @@ Methods will be sent to the current, front-most, active timeline document. So, i
 
 if `note` is given, create a note stamp and set the note to the specified note. If not, create an empty note stamp.
 
-if `colour` is the given, the new note stamp will be created with the colour. Supported strings include: `green`, `red`, `yellow` or `purple`. Colour will default to `green`.
+if `colour` is given, the new note stamp will be created with the colour. Supported strings include: `green`, `red`, `yellow` or `purple`. Colour will default to `green`.
 
 ### Media Methods
 
