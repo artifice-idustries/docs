@@ -27,3 +27,4 @@
     <!-- - [Disguise](/docs/{{version}}/disguise) -->
     <!-- - [Mitti](/docs/{{version}}/mitti) -->
     - [Hog 4](/docs/{{version}}/hog-4)
+    - [OSC Dictionary](/docs/{{version}}/osc-dictionary)
